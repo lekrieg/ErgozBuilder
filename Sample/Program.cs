@@ -1,10 +1,15 @@
-﻿namespace Sample
+﻿using ErgozBuilderLib;
+using Sample.Models;
+
+namespace Sample
 {
 	internal class Program
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			var person = ErgozBuilder.CreateItem(new Person());
+
+			Console.WriteLine(person.ToString());
 		}
 	}
 }

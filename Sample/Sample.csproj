@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ErgozBuilderLib\ErgozBuilderLib\ErgozBuilderLib.csproj" />
+  </ItemGroup>
+
 </Project>
